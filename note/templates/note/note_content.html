@@ -1,0 +1,15 @@
+
+<!-- <h1>{{ note.Title }}</h1>
+<ul>
+    <p>{{note.Content}}</p>
+    <p>{{note.Pub_Date}}</p>
+    
+
+</ul> -->
+<h1>{{ title }}</h1>
+<p>{{title.Content}}</p>
+<ul>
+{% for choice in question.choice_set.all %}
+    <li>{{ choice.choice_text }}</li>
+{% endfor %}
+</ul>

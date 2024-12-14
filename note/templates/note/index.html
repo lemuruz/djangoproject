@@ -1,0 +1,9 @@
+{% if all_note %}
+    <ul>
+    {% for note_ in all_note %}
+        <li><a href="/note/{{ note_.id }}/">{{ note_.Title }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No polls are available.</p>
+{% endif %}
