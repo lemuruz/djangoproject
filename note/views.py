@@ -14,3 +14,4 @@ def index(request):
 def detail(request,note_id):
     title = get_object_or_404(note, pk=note_id)
     return render(request,"note/note_content.html",{"title":title})
+    

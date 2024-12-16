@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home Page</title>
+</head>
+<body>
+    <p>{{current_time}}</p>
+    <h1>Welcome to My Django App!</h1>
+
+    <ul>
+        <li><a href="/note/">My Notes</a></li>
+        <li><a href="/admin/">Admin Panel</a></li>
+    </ul>
+
+    <h2>Home Directory Contents:</h2>
+    {% for path in paths %}
+        <li><a>{{ path }}</a></li>
+    {% endfor %}
+</body>
+</html>

@@ -7,3 +7,6 @@ class note(models.Model):
     Pub_Date = models.DateTimeField("date published")
     def __str__(self):
         return self.Title
+    
+
+#เมื่อมีการเรียกดูจะแสดงเป็น Title แทนที่จะเป็น Object 1
