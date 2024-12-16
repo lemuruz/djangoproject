@@ -9,4 +9,3 @@ class note(models.Model):
         return self.Title
     
 
-#เมื่อมีการเรียกดูจะแสดงเป็น Title แทนที่จะเป็น Object 1

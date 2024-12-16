@@ -6,12 +6,11 @@
     
 
 </ul> -->
-<h1>{{ title }}</h1>
-<p>{{title.Content}}</p>
+<p>Create day : {{Pub_date}}</p>
+<h1>{{ note_instance }}</h1>
+<p>{{note_instance.Content}}</p>
 <ul>
-{% for choice in question.choice_set.all %}
-    <li>{{ choice.choice_text }}</li>
-{% endfor %}
+
 </ul>
 
 
