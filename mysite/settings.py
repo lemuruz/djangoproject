@@ -125,3 +125,6 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # ALLOWED_HOSTS = ['lemuruz.pythonanywhere.com', 'http://127.0.0.1:8000/']
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://i8l-diligent-newton.circumeo-apps.net',
+]
