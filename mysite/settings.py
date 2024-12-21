@@ -31,7 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    
+    'Simple_calculator.apps.SimpleCalculatorConfig',
     "note.apps.NoteConfig", #เพิ่มบันทัดนี้
     'django.contrib.admin',
     'django.contrib.auth',
