@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 }
                 break;
         }
-        resultBox.textContent = `Result: ${result}`;
+        resultBox.textContent = `${result}`;
     }
     operationButtons.forEach(button =>{
         button.addEventListener('click',function () {
