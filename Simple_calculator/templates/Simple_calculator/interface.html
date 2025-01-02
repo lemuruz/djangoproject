@@ -13,8 +13,11 @@
         <h1>Simple Calculator</h1>
         <form method="POST">
             {% csrf_token %}
-            <input type="number" id="num1" placeholder="Enter first number" required><br>
+            <!--ช่องสำหรับใส่ตัวเลข-->
+            <input type="number" id="num1" 
+            placeholder="Enter first number" required><br>
             <input type="number" id="num2" placeholder="Enter second number" required><br>
+            <!--ปุ่มกดสำหรับกดคำนวน class="operation" , value = ทำงานร่วมกับ calculation.js เพื่อให้รู้ว่าเป็นปุ่มเดียวกัน และ value ใช้ในการเลือกการำนวน-->
             <button type="button" class="operation" value="add">+</button>
             <button type="button" class="operation" value="subtract">-</button>
             <button type="button" class="operation" value="multiply">×</button>
